@@ -1,22 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./main.css">
 </head>
+
 <body>
 
-    <a href="./add.html">new product</a>
+    <nav>
+        <a href="#">Home</a>
+        <a href="./add.html">new product</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+        <section class="about">
+            <h2>About</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quisquam, nulla quos voluptas tempora
+                accusamus perferendis dolorum quas vitae laboriosam, debitis voluptatum tenetur unde. Quis amet eum,
+                esse perspiciatis mollitia ad fugiat ratione facere delectus vero quod rerum fuga voluptatibus magni
+                nobis, nostrum recusandae nulla odit est accusamus! Id dolores dolorem quisquam voluptas animi esse
+                voluptate voluptatibus laborum, odit molestiae commodi facere quos repudiandae totam omnis dicta. Fugit
+                quasi deserunt libero? Nam neque quidem, ratione ad asperiores impedit unde vitae velit aliquam corporis
+                sit sunt reiciendis distinctio cupiditate labore nihil, iusto beatae eos facilis. Consequuntur,
+                accusamus aperiam. Minima, saepe rerum minus asperiores nostrum voluptatem veniam nihil illo cum sed
+                voluptatum ab ullam et commodi assumenda! Iure possimus fugiat voluptate. Ratione odio praesentium
+                eveniet nobis dolorem dolores mollitia nesciunt modi, provident reprehenderit omnis itaque sint
+                consequatur nam quidem neque deleniti iste recusandae cupiditate sunt accusantium? Nesciunt maiores
+                aliquam excepturi libero, facilis vel ea quibusdam eligendi ipsum assumenda. Odit obcaecati eum quis
+                distinctio necessitatibus numquam sed quae illum placeat, dolor est ratione! Veniam possimus blanditiis
+                autem a eligendi, veritatis fugit corrupti explicabo voluptas quidem aliquam ipsam? Deleniti ullam,
+                repellat autem placeat delectus eos, consectetur neque ratione ducimus inventore odit ut! Sequi odio ut
+                dolore ex, eaque alias culpa consequatur voluptatem facilis sed illo temporibus repellat sapiente
+                similique suscipit ipsa officia aut quod saepe reiciendis eos magnam quibusdam voluptas aliquid! Ipsum
+                nam fugiat, quasi quas optio id quisquam eius sit porro accusamus aut debitis architecto maxime aperiam
+                eveniet repellendus, sed culpa ducimus esse neque quod commodi? Aliquid perspiciatis, ipsa
+                exercitationem eveniet dicta sint, magnam dignissimos et, velit officia minima illo nulla! Velit rem
+                molestiae temporibus nesciunt ducimus ea quibusdam nam dolorum nulla accusantium sit debitis
+                exercitationem, consequuntur voluptatum saepe recusandae placeat veritatis labore odio quas vel voluptas
+                laborum. Libero rem ab explicabo doloribus laudantium. Harum, id. Error accusamus minima laudantium
+                nesciunt, nam quia facilis quisquam qui voluptatum consequuntur ab eveniet laboriosam dignissimos sunt,
+                eum, voluptatibus tempora itaque deleniti! Soluta officiis asperiores cupiditate doloribus magni ad,
+                aliquid itaque veritatis porro quos nobis illum! Odit dolore adipisci voluptatem sint ut eveniet aperiam
+                laborum! Ex sapiente quis, porro soluta reiciendis nobis modi officiis, iusto, eos in voluptate quam
+                cumque. Facere similique, quisquam corporis exercitationem quam iusto ullam nesciunt ratione
+                perspiciatis ea quaerat dignissimos aperiam nam reprehenderit sed omnis dolor eius ex illo. Molestias,
+                dolor quibusdam. Cupiditate sapiente aliquam facere, atque molestiae molestias dolore quod voluptas quo
+                ab culpa voluptates laboriosam perspiciatis suscipit nam accusamus, ducimus officia omnis. Facilis
+                accusantium totam, sunt ab dolores dolorum soluta corrupti, numquam modi dicta sequi quasi quis unde
+                possimus iusto, necessitatibus voluptates quod officiis! Incidunt voluptates aspernatur placeat id nobis
+                modi rem distinctio nisi consequatur asperiores cum atque quis a saepe iusto praesentium, esse, cumque
+                nam deleniti? Eligendi debitis aspernatur aut perferendis officiis doloremque expedita architecto esse
+                alias saepe, tempora consectetur reiciendis rerum. Eos vitae ratione modi libero natus sequi aspernatur
+                explicabo tenetur iure accusamus, blanditiis et officia, commodi, id culpa magnam placeat voluptatum
+                perferendis ullam? Recusandae quam voluptate officiis nostrum.</p>
+        </section>
+
+        <section class="products-section">
+            <div class="products"></div>
+
+            <div class="pagination-container">
+                <ul class="pagination">
+
+                </ul>
+            </div>
+        </section>
+    </main>
+
 
     <div class="overlay">
         <div class="loader"></div>
     </div>
 
-    <div class="products"></div>
+    <div class="my-modal d-none">
+        <div class="img">
+            <i class="fa-regular fa-circle-xmark closeBtn"></i>
+            <i class="fa-solid fa-left-long leftBtn"></i>
+            <img />
+            <i class="fa-solid fa-right-long rightBtn"></i>
+        </div>
+    </div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="./main.js"></script>
 </body>
+
 </html>
